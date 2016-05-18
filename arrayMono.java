@@ -1,18 +1,17 @@
 /*
-    Scrivere un metodo che, dati due array monodimensionali a, b, ed un intero k che
-    restituisce true, se tutti gli elementi di a compaiono almeno k volte in b, altrimenti
-    restituisce false.
+    Scrivere un metodo che, dati due array monodimensionali a, b, ed un intero k: restituisce
+    true, se tutti gli elementi di a compaiono almeno k volte in b, altrimenti false.
 
 */
 
-public class Main {
+public class arrayMono {
 
     public static void main(String[] args) {
 
-	    int []a = {2, 3, 5};
+	int []a = {2, 3, 5};
         int []b = {5, 2, 5, 2, 3, 3};
         int k = 2;
-
+        
         System.out.print(elementiArray(a, b, k));
 
     }

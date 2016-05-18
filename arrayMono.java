@@ -15,6 +15,7 @@ public class arrayMono {
         System.out.print(elementiArray(a, b, k));
 
     }
+    
     public static boolean elementiArray (int []a, int []b, int k) {
 
         int trovato = 0;
